@@ -1,0 +1,49 @@
+body{
+    background-image: url("./images/img_lights.jpg");
+}
+.container {
+    height: 50vh;
+    width: 50vh;
+    position: absolute;
+    border: 3px solid green;
+    left: 35%;
+    background-color: #1ea819;
+    top: 20%;
+    opacity: 0.8;
+  }
+.textDiv{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 30%;
+}
+.btn {
+    display: inline-block;
+padding: 6px 10px;
+font-size: 19px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #4CAF50;
+border: none;
+border-radius: 15px;
+box-shadow: 0 4px #999;
+margin-right: 25px;
+margin-left: -2.5em;
+  }
+  
+  .btn:hover {background-color: #3e8e41}
+  
+  .btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .para{
+    color: white;
+    font-size: x-large;
+  }
